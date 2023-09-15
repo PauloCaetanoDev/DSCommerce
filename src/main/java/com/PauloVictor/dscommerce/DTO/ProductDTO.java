@@ -1,5 +1,7 @@
 package com.PauloVictor.dscommerce.DTO;
 
+import com.PauloVictor.dscommerce.entities.Product;
+
 public class ProductDTO {
 
 	private Long id;
@@ -41,6 +43,14 @@ public class ProductDTO {
 		return imgUrl;
 	}
      
+		
+	public ProductDTO(Product entity) {
+		this.id = entity.getId();
+		this.name = entity.getName();
+		this.description = entity.getDescription();
+		this.price = entity.getPrice();
+		this.imgUrl = entity.getImgUrl();
+	}
 	
 	
 }
