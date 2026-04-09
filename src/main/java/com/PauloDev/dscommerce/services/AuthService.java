@@ -1,10 +1,10 @@
-package com.devsuperior.dscommerce.services;
+package com.PauloDev.dscommerce.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.devsuperior.dscommerce.entities.User;
-import com.devsuperior.dscommerce.services.exceptions.ForbiddenException;
+import com.PauloDev.dscommerce.entities.User;
+import com.PauloDev.dscommerce.services.exceptions.ForbiddenException;
 
 @Service
 public class AuthService {

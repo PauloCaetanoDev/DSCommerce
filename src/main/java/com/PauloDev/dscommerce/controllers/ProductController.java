@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.controllers;
+package com.PauloDev.dscommerce.controllers;
 
 import java.net.URI;
 
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.devsuperior.dscommerce.dto.ProductDTO;
-import com.devsuperior.dscommerce.dto.ProductMinDTO;
-import com.devsuperior.dscommerce.services.ProductService;
+import com.PauloDev.dscommerce.dto.ProductDTO;
+import com.PauloDev.dscommerce.dto.ProductMinDTO;
+import com.PauloDev.dscommerce.services.ProductService;
 
 import jakarta.validation.Valid;
 

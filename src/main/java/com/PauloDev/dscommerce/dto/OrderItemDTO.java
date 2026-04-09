@@ -1,6 +1,6 @@
-package com.devsuperior.dscommerce.dto;
+package com.PauloDev.dscommerce.dto;
 
-import com.devsuperior.dscommerce.entities.OrderItem;
+import com.PauloDev.dscommerce.entities.OrderItem;
 
 public class OrderItemDTO {
 

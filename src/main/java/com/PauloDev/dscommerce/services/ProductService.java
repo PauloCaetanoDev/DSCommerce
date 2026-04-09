@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.services;
+package com.PauloDev.dscommerce.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -8,14 +8,14 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dscommerce.dto.CategoryDTO;
-import com.devsuperior.dscommerce.dto.ProductDTO;
-import com.devsuperior.dscommerce.dto.ProductMinDTO;
-import com.devsuperior.dscommerce.entities.Category;
-import com.devsuperior.dscommerce.entities.Product;
-import com.devsuperior.dscommerce.repositories.ProductRepository;
-import com.devsuperior.dscommerce.services.exceptions.DatabaseException;
-import com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException;
+import com.PauloDev.dscommerce.dto.CategoryDTO;
+import com.PauloDev.dscommerce.dto.ProductDTO;
+import com.PauloDev.dscommerce.dto.ProductMinDTO;
+import com.PauloDev.dscommerce.entities.Category;
+import com.PauloDev.dscommerce.entities.Product;
+import com.PauloDev.dscommerce.repositories.ProductRepository;
+import com.PauloDev.dscommerce.services.exceptions.DatabaseException;
+import com.PauloDev.dscommerce.services.exceptions.ResourceNotFoundException;
 
 import jakarta.persistence.EntityNotFoundException;
 

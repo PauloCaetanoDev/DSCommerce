@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.config;
+package com.PauloDev.dscommerce.config;
 
 import java.util.Arrays;
 

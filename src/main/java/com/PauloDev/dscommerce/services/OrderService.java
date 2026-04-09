@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.services;
+package com.PauloDev.dscommerce.services;
 
 import java.time.Instant;
 
@@ -6,17 +6,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dscommerce.dto.OrderDTO;
-import com.devsuperior.dscommerce.dto.OrderItemDTO;
-import com.devsuperior.dscommerce.entities.Order;
-import com.devsuperior.dscommerce.entities.OrderItem;
-import com.devsuperior.dscommerce.entities.OrderStatus;
-import com.devsuperior.dscommerce.entities.Product;
-import com.devsuperior.dscommerce.entities.User;
-import com.devsuperior.dscommerce.repositories.OrderItemRepository;
-import com.devsuperior.dscommerce.repositories.OrderRepository;
-import com.devsuperior.dscommerce.repositories.ProductRepository;
-import com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException;
+import com.PauloDev.dscommerce.dto.OrderDTO;
+import com.PauloDev.dscommerce.dto.OrderItemDTO;
+import com.PauloDev.dscommerce.entities.Order;
+import com.PauloDev.dscommerce.entities.OrderItem;
+import com.PauloDev.dscommerce.entities.OrderStatus;
+import com.PauloDev.dscommerce.entities.Product;
+import com.PauloDev.dscommerce.entities.User;
+import com.PauloDev.dscommerce.repositories.OrderItemRepository;
+import com.PauloDev.dscommerce.repositories.OrderRepository;
+import com.PauloDev.dscommerce.repositories.ProductRepository;
+import com.PauloDev.dscommerce.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class OrderService {

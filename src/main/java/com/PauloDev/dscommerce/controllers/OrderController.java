@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.controllers;
+package com.PauloDev.dscommerce.controllers;
 
 import java.net.URI;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.devsuperior.dscommerce.dto.OrderDTO;
-import com.devsuperior.dscommerce.services.OrderService;
+import com.PauloDev.dscommerce.dto.OrderDTO;
+import com.PauloDev.dscommerce.services.OrderService;
 
 import jakarta.validation.Valid;
 

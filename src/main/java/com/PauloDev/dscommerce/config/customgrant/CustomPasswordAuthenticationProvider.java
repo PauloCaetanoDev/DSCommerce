@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.config.customgrant;
+package com.PauloDev.dscommerce.config.customgrant;
 
 import java.security.Principal;
 import java.util.HashSet;

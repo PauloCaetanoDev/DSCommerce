@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.projections;
+package com.PauloDev.dscommerce.projections;
 
 public interface UserDetailsProjection {
 

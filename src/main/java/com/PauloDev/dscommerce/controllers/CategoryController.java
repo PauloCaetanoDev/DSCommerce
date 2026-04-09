@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.controllers;
+package com.PauloDev.dscommerce.controllers;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dscommerce.dto.CategoryDTO;
-import com.devsuperior.dscommerce.services.CategoryService;
+import com.PauloDev.dscommerce.dto.CategoryDTO;
+import com.PauloDev.dscommerce.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")

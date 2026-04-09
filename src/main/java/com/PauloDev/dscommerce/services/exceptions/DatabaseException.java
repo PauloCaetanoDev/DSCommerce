@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.services.exceptions;
+package com.PauloDev.dscommerce.services.exceptions;
 
 @SuppressWarnings("serial")
 public class DatabaseException extends RuntimeException {

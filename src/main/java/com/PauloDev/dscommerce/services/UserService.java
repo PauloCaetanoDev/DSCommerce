@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.services;
+package com.PauloDev.dscommerce.services;
 
 import java.util.List;
 
@@ -12,11 +12,11 @@ import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dscommerce.dto.UserDTO;
-import com.devsuperior.dscommerce.entities.Role;
-import com.devsuperior.dscommerce.entities.User;
-import com.devsuperior.dscommerce.projections.UserDetailsProjection;
-import com.devsuperior.dscommerce.repositories.UserRepository;
+import com.PauloDev.dscommerce.dto.UserDTO;
+import com.PauloDev.dscommerce.entities.Role;
+import com.PauloDev.dscommerce.entities.User;
+import com.PauloDev.dscommerce.projections.UserDetailsProjection;
+import com.PauloDev.dscommerce.repositories.UserRepository;
 
 @Service
 public class UserService implements UserDetailsService {

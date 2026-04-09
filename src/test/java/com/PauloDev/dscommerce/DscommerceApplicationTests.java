@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce;
+package com.PauloDev.dscommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

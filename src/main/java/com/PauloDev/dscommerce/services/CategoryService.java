@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.services;
+package com.PauloDev.dscommerce.services;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dscommerce.dto.CategoryDTO;
-import com.devsuperior.dscommerce.entities.Category;
-import com.devsuperior.dscommerce.repositories.CategoryRepository;
+import com.PauloDev.dscommerce.dto.CategoryDTO;
+import com.PauloDev.dscommerce.entities.Category;
+import com.PauloDev.dscommerce.repositories.CategoryRepository;
 
 @Service
 public class CategoryService {

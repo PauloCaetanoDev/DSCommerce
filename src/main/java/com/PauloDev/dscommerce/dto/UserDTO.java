@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.dto;
+package com.PauloDev.dscommerce.dto;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;
 
-import com.devsuperior.dscommerce.entities.User;
+import com.PauloDev.dscommerce.entities.User;
 
 public class UserDTO {
 

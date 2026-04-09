@@ -1,10 +1,10 @@
-package com.devsuperior.dscommerce.dto;
+package com.PauloDev.dscommerce.dto;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.devsuperior.dscommerce.entities.Category;
-import com.devsuperior.dscommerce.entities.Product;
+import com.PauloDev.dscommerce.entities.Category;
+import com.PauloDev.dscommerce.entities.Product;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

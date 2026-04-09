@@ -1,12 +1,12 @@
-package com.devsuperior.dscommerce.dto;
+package com.PauloDev.dscommerce.dto;
 
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.devsuperior.dscommerce.entities.Order;
-import com.devsuperior.dscommerce.entities.OrderItem;
-import com.devsuperior.dscommerce.entities.OrderStatus;
+import com.PauloDev.dscommerce.entities.Order;
+import com.PauloDev.dscommerce.entities.OrderItem;
+import com.PauloDev.dscommerce.entities.OrderStatus;
 
 import jakarta.validation.constraints.NotEmpty;
 

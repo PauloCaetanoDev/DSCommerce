@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.config.customgrant;
+package com.PauloDev.dscommerce.config.customgrant;
 
 import java.util.Arrays;
 import java.util.HashMap;

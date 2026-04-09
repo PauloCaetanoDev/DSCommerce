@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce.dto;
+package com.PauloDev.dscommerce.dto;
 
 import java.time.Instant;
 

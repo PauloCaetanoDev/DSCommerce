@@ -1,6 +1,6 @@
-package com.devsuperior.dscommerce.repositories;
+package com.PauloDev.dscommerce.repositories;
 
-import com.devsuperior.dscommerce.entities.Product;
+import com.PauloDev.dscommerce.entities.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
